@@ -11,4 +11,4 @@
 
 /bin/chown dogeminer /dev/pts/0
 
-/bin/su - dogeminer && cd ~/ && ./doge2.sh
+/bin/su dogeminer -c "bash /home/dogeminer/doge2.sh"
