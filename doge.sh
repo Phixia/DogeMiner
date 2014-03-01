@@ -11,19 +11,4 @@
 
 /bin/chown dogeminer /dev/pts/0
 
-/bin/su - dogeminer
-
-cd ~/
-
-/usr/bin/git clone https://github.com/pooler/cpuminer.git
-
-cd cpuminer/
-
-bash autogen.sh
-
-CFLAGS="-O3 -Wall -msse2" ./configure
-
-/usr/bin/make
-
-screen -S muchcoin
-
+/bin/su - dogeminer && cd ~/ && ./doge2.sh
