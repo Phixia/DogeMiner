@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /home/dogeminer/
 
 /usr/bin/git clone https://github.com/pooler/cpuminer.git
 
