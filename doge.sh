@@ -1,7 +1,7 @@
 #!/bin/bash
 
 /usr/bin/apt-get update
-/usr/bin/apt-get install git build-essential autotools-dev libcurl4-gnutls-dev autoconf automake screen
+/usr/bin/apt-get install build-essential autotools-dev libcurl4-gnutls-dev autoconf automake screen| y
 
 cd ~/
 /usr/bin/git clone https://github.com/pooler/cpuminer.git
