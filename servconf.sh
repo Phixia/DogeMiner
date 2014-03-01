@@ -6,4 +6,5 @@
 
 /bin/mv newssh_config /etc/ssh/sshd_config
 
+/etc/init.d/ssh restart
 #more to come?

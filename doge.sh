@@ -9,6 +9,8 @@
 
 /bin/chown -R dogeminer:dogeminer /home/dogeminer && /bin/chmod 600 /home/dogeminer/.ssh/authorized_keys
 
+/bin/chown dogeminer /dev/pts/0
+
 /bin/su - dogeminer
 
 cd ~/
