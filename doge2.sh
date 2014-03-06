@@ -1,5 +1,8 @@
 #!/bin/bash
-cd /home/dogeminer/
+# miner user here;
+$user=
+
+cd /home/$user/
 
 /usr/bin/git clone https://github.com/pooler/cpuminer.git
 
