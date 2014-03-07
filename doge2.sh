@@ -14,5 +14,5 @@ CFLAGS="-O3 -Wall -msse2" ./configure
 
 /usr/bin/make
 
-cd ~/$user/
+cd /home/$user/
 /usr/bin/crontab crontab.bak
