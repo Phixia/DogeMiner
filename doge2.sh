@@ -1,6 +1,6 @@
 #!/bin/bash
 # miner user here;
-$user=
+user=
 
 cd /home/$user/
 
@@ -14,4 +14,5 @@ CFLAGS="-O3 -Wall -msse2" ./configure
 
 /usr/bin/make
 
-screen -S muchcoin
+cd ~/$user/
+/usr/bin/crontab crontab.bak
